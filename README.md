@@ -13,3 +13,6 @@ Contains a 2D GAN on the MNIST data set using Keras. When running the code it of
 3) WGAN.py:
 This is the implementation from the original paper on Wasserstein GANs. I have chosen to use CIFAR-10 benchmark data set because I like cats and dogs.. however not frogs, well the former outweights the latter. 
 The implementation is done in PyTorch.
+
+4) WGAN_training.gif:
+A GIF illustrating the generator's ability to generate life-like pictures from the same noise during training. The pictures look more and more realistic. This was done using the code in WGAN.py on an Amazon cloud computing GPU for 100 iterations of training CIFAR-10.
